@@ -11,7 +11,7 @@ class Tweet extends Component {
                     <span className="tweet__nomeUsuario">Fulano de Tal</span>
                     <a href=""><span className="tweet__userName">@usuario</span></a>
                 </div>
-                <p className="tweet__conteudo"><span>{ this.props.texto }</span></p>
+                <p className="tweet__conteudo"><span>{ this.props.tweet.conteudo }</span></p>
                 <footer className="tweet__footer">
                     <button className="btn btn--clean">
                         <svg className="icon icon--small iconHeart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.5 47.5">
